@@ -113,6 +113,48 @@ img{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+h2 {
+    color: transparent; /* Oculta todo el texto */
+}
+
+h2 .azul {
+    color: blue; /* Muestra el texto con la clase "azul" en azul */
+}
+
+h2 .gris {
+    color: rgb(157, 255, 0); /* Muestra el texto con la clase "gris" en un tono definido por los valores RGB */
+}
+
+
+h2 .rojo {
+    color: red; /* Muestra el texto con la clase "rojo" en rojo */
+}
+
+.platillo img {
+    width: 100%; /* Establece un ancho del 100% */
+    height: 500px;/* Altura automática para mantener la relación de aspecto */
+}
+
+
+
+
+
+
+
+
+.contenido-header {
+    background-image: url('/assets/e.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+.contenedor-encabezado {
+    position: relative;
+    z-index: 1;
+}
+
 .btn-verde{
     background-color: var(--verde);
     border: none;
@@ -351,8 +393,22 @@ video{
     color: var(--blanco);
     height: 3.8rem;
 }
+.precio button1 {
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--verde);
+    color: var(--blanco);
+    height: 3.8rem;
+    margin-top: 10px; /* Ajusta este valor para cambiar la distancia hacia abajo */
+}
+
+
+
+
+
 .separador{
-    background-image: url('../assets/ensalada.webp');
+    background-image: url('../assets/y.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
