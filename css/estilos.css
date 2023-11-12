@@ -160,8 +160,8 @@ h2 .rojo {
 }
 
 .platillo img {
-    width: 100%; /* Establece un ancho del 100% */
-    height: 500px;/* Altura automática para mantener la relación de aspecto */
+    width: 95%; /* Establece un ancho del 100% */
+    height: 300px;/* Altura automática para mantener la relación de aspecto */
 }
 
 .contenido-header   .imagen-inicio {
@@ -408,27 +408,22 @@ video{
     font-weight: bold;
     font-size: 2rem;
 }
-.precio button{
-    padding:1rem;
-    border-radius: 5px;
-    border: none;
-    background-color: var(--rojo);
-    color: var(--blanco);
-    height: 3.8rem;
+.enlace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Si deseas ajustar el espaciado entre el icono y el borde del botón, puedes usar padding o margin en el botón */
 }
-.precio button1 {
-    padding: 1rem;
-    border-radius: 10px;
+
+.precio  button{
+    padding:1rem;
+    border-radius: 8px;
     border: none;
     background-color: var(--verde);
     color: var(--blanco);
-    height: 3.8rem;
-    margin-top: 10px; /* Ajusta este valor para cambiar la distancia hacia abajo */
+    width: bold;
+    margin-left: 20px;
 }
-
-
-
-
 
 .separador{
     background-image: url('../assets/y.jpg');
