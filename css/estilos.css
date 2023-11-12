@@ -165,7 +165,7 @@ h2 .rojo {
 }
 
 .contenido-header {
-    background-image: url('/assets/bg_video.mp4');
+    background-image: url('/assets/R.jfif');
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -257,7 +257,7 @@ h2 .rojo {
     margin-bottom: .5rem;
 }
 
-/*video*/
+/*la imagen del medio*/
 .contenido-header{
     position: relative;
 }
